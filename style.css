@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    }
+    
+    header{
+    width: 100vw;
+    
+    .container{
+        background: rgb(0, 0, 0);
+        display: flex;
+        padding: 1vw;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .titulo{
+        width: 20vw;
+        right: 2vw;
+    
+        h1{
+            color: white;
+            font-size: 1.5vw;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+    }
+    
+    .links{
+        width: 33vw;
+    
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 1.5vw;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 1vw;
+            border-radius: 0.7vw;
+        }
+    
+    }
+    
+        a:hover{
+            text-decoration: none;
+            font-size: 1.5vw;
+            margin: 1vw;
+            cursor: pointer;
+            color: rgb(175, 169, 169);
+            border-radius: 1vw;
+            height: 2vh;
+            width: 2vw;
+    
+        }
+    }
+    
+    #roupa {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+    
+    #roupa h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .card-container {
+        display: flex;
+        justify-content:center;
+        flex-wrap: wrap;
+        gap: 20px;
+        
+    }
+    
+    .card {
+        width: 350px; /* Adjust card width as needed */
+        box-shadow: 0 4px 8px rgba(0, 0, 0.0, 0.1);
+        border-radius: 5px;
+        overflow: hidden;
+        background-color: #fff;
+        padding: 0.5vw;
+        margin: 1.5vw;
+    }
+    
+    .card img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    
+    .card .descricao {
+        padding: 15px;
+        text-align: center;
+    }
+    
+    .card .descricao h3 {
+        margin: 0;
+        color: #333;
+        font-size: 1.2em;
+    }
+    
+    .card .descricao p {
+        color: #666;
+        font-size: 1em;
+        margin: 10px 0;
+    }
+    
+    .card .descricao a {
+        display: inline-block;
+        text-decoration: none;
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+    
+    .card .descricao a:hover {
+        background-color: #0056b3;
+    }
+
+    body{
+        background-color: #f5f3f3;
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px;
+        background-color: black;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
